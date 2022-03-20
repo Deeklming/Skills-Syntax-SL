@@ -2,10 +2,14 @@
 
 ## 기본형태
 ```go
-package rootfoldername;
+package main
+
+import (
+    "fmt"
+)
 
 func main(){
-    println("go")
+    fmt.Println("go")
 }
 ```
 
@@ -17,9 +21,25 @@ PATH = Go/bin
 ## CLI 컴파일 후 실행
 - go 1.18 +
 ```
-go run gofile.go - go 빌드 후 자동 실행
+go run gofile.go - go 빌드 후 자동 실행 후 빌드 파일 자동 삭제
 go build gofile.go - go 빌드
 ```
+build 옵션은 컴파일 후 정적 링크 실행 파일(외부 라이브러리 없이 하나의 파일)로 생성함   
+
+## 특징
+Go 언어의 패러다임은 절차형, 동시성, 분산을 지원하고 가비지 컬렉션을 지원하며 강타입이다   
+Go 언어는 전처리기를 사용하지 않고 기본적으로 static linking(정적 링크)를 사용하기에 동일한 OS끼리 바이너리를 넘기기 쉽다   
+
+## 임포트
+Go 언어는 실제 사용하는 패키지만 import 할 수 있고 사용하지 않는 패키지는 앞에 _를 사용하여 제외시킬 수 있다   
+
+## 중괄호
+```
+표현식{ <- {는 표현식 옆 위치 필수
+
+}
+```
+Go 언어에서 중괄호는 컴파일러가 자동으로 ;(세미콜론)을 삽입하기 때문에 엄격한 방식을 채택한다   
 
 ## 주석
 ```go
@@ -32,4 +52,4 @@ go build gofile.go - go 빌드
 vscode단축키: ctrl + /(윈도우), cmd + /(맥)   여러줄일 경우 블록지정하여 사용한다
 
 ## 표기법
-고에서 (변수명과 함수명은 camelCase, 상수명은 모두 대문자에 SNAKE_CASE, 클래스명은 PascalCase, 패키지명은 모두 소문자를 사용한다)
+Go에서 파일명은 SNAKE_CASE 사용한다 (변수명과 함수명은 camelCase, 상수명은 모두 대문자에 SNAKE_CASE, 클래스명은 PascalCase, 패키지명은 모두 소문자를)
