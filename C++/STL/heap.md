@@ -14,8 +14,8 @@ heap은 부모 노드가 항상 크다라는 불변성을 가지고 있고 응�
 using namespace std;
 
 struct median{
-    priority_queue<int> maxHeap;
-    priority_queue<int, vector<int>, greater<int>> minHeap;
+    priority_queue<int> maxHeap;//priority_queue로 heap 구현, 최대값
+    priority_queue<int, vector<int>, greater<int>> minHeap;//최소값
 
     void insert(int data){
         if(maxHeap.size()==0){
@@ -68,4 +68,3 @@ int main(){
 ```
 머신러닝이나 데이터 분석에서 사용할만한 median(중앙값) 구하는 소스이다   
 중앙값은 데이터를 정렬하여 가운데 위치한 값이고 만약 데이터의 개수가 짝수라면 가운데 두 데이터의 산술 평균은 구해서 반환한다   
-
