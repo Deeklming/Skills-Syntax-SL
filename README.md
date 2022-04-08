@@ -16,11 +16,11 @@ LICENSE => 정보기, 정처기, 빅분기, 지텔프
 PROJECT => Performance Monitoring of Service(OTT+ShopingMall)
 
 NOW => {
-    syntax -> [go, c++]
+    syntax -> [go, c++, python]
     skill -> [nodejs, svelte]
-    algorithm -> [코테c++, 코테python, 알고c++]
+    algorithm -> [c++ python]
     math -> [기본수학, 기본통계, 선형대수학]
-    project -> []
+    project -> [PMoS]
     license -> [정처기, 정보기, 빅분기, 지텔프]
 }
 ```
