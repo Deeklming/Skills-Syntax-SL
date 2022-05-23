@@ -2,11 +2,11 @@
 
 ```
 MAINLANG => c, rust, go,
-SUBLANG => c++, javascript, python,
-DEFERLANG => kotlin, c#, asm, typescript, shell, swift,
+SUBLANG => c++, javascript, python, kotlin,
+DEFERLANG => c#, asm, typescript, shell, swift,
 
-SKILL => mark, bootstrap, postgresql, nodejs, svelte, git,
-DEFERSKILL => django, boost, android, regex, algorithm, ios, linux, mariadb, mongodb, fastapi, docker, windows, macos,
+SKILL => mark, bootstrap, postgresql, nodejs, svelte, git, django, android,
+DEFERSKILL => boost, regex, algorithm, ios, linux, mariadb, mongodb, fastapi, docker, windows, macos,
 
 TOOL => vscode, dbeaver,
 
