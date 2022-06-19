@@ -1,9 +1,9 @@
 # SkillsSyntaxSTL
 
 ```
-MAINLANG => go, rust, c, python,
-SUBLANG => c++, javascript,
-DEFERLANG => c#, asm, typescript, shell, swift, kotlin,
+MAINLANG => go, rust, c,
+SUBLANG => python, c++, javascript,
+DEFERLANG => c#, asm, typescript, shell, swift, dart, kotlin,
 
 SKILL => mark, bootstrap, postgresql, nodejs, svelte, git, django,
 DEFERSKILL => boost, regex, algorithm, ios, linux, mariadb, mongodb, fastapi, docker, windows, macos, android,
@@ -18,8 +18,8 @@ LICENSE => 정처기, 정보기, 빅분기, 지텔프
 PROJECT => GitHub Update
 
 NOW => {
-    syntax -> [python, go, c++, rust]
-    skill -> [django]
+    syntax -> [go, c++, rust]
+    skill -> [django, nestjs]
     algorithm -> [c++, (MAINLANG)]
     math -> [기본]
     project -> [GU]
