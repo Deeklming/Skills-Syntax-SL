@@ -3,7 +3,7 @@
 ```
 MAINLANG => dart, c++, rust, python,
 SUBLANG => c, shell, javascript,
-DEFERLANG => c#, asm, typescript, swift, kotlin, go, objective-c, java,
+DEFERLANG => c#, asm, typescript, go, swift, kotlin, objective-c, java,
 
 SKILL => flutter, socket
 DEFERSKILL => boost, regex, ios, linux, mariadb, mongodb, fastapi, docker, windows, macos, vscode, bootstrap, postgresql, nodejs, svelte, git, django, android
