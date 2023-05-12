@@ -24,7 +24,9 @@ PATH = Go/bin
 go run gofile.go - go 빌드 후 자동 실행 후 빌드 파일 자동 삭제
 go build gofile.go - go 빌드
 ```
-build 옵션은 컴파일 후 정적 링크 실행 파일(외부 라이브러리 없이 하나의 파일)로 생성함   
+build 옵션은 컴파일 후 정적 링크 실행 파일(외부 라이브러리 없이 하나의 파일)로 생성함
+### Release Build
+golang release build는 go build -ldflags "-s -w" 옵션으로 실행
 
 ## 특징
 Go 언어의 패러다임은 절차형, 동시성, 분산을 지원하고 가비지 컬렉션을 지원하며 강타입이다   

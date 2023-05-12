@@ -1,6 +1,17 @@
 # KOTLIN
 
+## Kotlin Preparation
+1. kotlin command-line 페이지에서 설치
+2. 환경변수 설정 후 kotlinc-jvm -version && kotlinc-native -version 확인
+3. jvm의 경우 kotlinc-jvm Filename.kt -d Filename.jar && java -jar Filename.jar 컴파일 후 실행
+4. kotlin [-classpath] Filename.jar [FilenameKt]로도 실행가능
+5. native의 경우 kotlinc-native -o Filename.exe Filename.kt 컴파일
+
 ## 기본형태
+### .kt
+```kotlin
+fun main() = println("kotlin pursues expressions.")
+```
 ```kotlin
 package com.example.test
 
@@ -12,7 +23,27 @@ fun main(){
     println("kotlin")
 }
 ```
-확장자명은 .kt 또는 .kts이다   
+### .kts
+kotlin을 bash나 python같은 스크립트로 사용하고싶으면 확장자를 .kts로 만들어 사용하면 됨
+```kotlin
+fun errCalled(){
+    println("called...")
+    throw RuntimeException("oops")
+}
+
+try{
+    errCalled()
+}catch(e: Exception){
+    val stackTrace = e.getStackTrace()
+    println(stackTrace[0])
+    println(stackTrace[1])
+}
+
+Thread.sleep(1000)
+println("ok")
+```
+- kotlinc-jvm -script Filename.kts
+- 경고를 오류처럼 강하게 제한을 거는 방법은 kotlinc-jvm -Werror -script Filename.kts
 
 ## 환경변수 설정
 ```

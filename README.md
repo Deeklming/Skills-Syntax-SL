@@ -1,2 +1,2 @@
 # Skills-Syntax-SL
-Skills Syntax and Standard Library Study Collection
+Skills Syntax or Instruction or Theory and Standard Library Study Collection
