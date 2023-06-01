@@ -41,4 +41,26 @@ script태그 안에 src를 이용하여 자바스크립트 파일을 호출한�
 vscode단축키: ctrl + /(윈도우), cmd + /(맥)   여러줄일 경우 블록지정하여 사용한다   
 
 ## 표기법
-자바스크립트에서 변수명과 함수명은 camelCase, 클래스명과 생성자명은 PascalCase를 사용한다   
+자바스크립트에서 변수명과 함수명은 camelCase, 클래스명과 생성자명은 PascalCase를 사용한다
+
+## 타입체크
+```js
+function typeCheck(value) {
+    const return_value = Object.prototype.toString.call(value);
+    const type = return_value.substring(
+        return_value.indexOf(" ") + 1,
+        return_value.indexOf("]")
+    );
+    return type.toLowerCase();
+}
+
+typeof(value) === 'number'
+typeCheck(value) === 'number'
+isNaN(value) // value '', ' ', '1', '2', '3'이 false이고 'a', 'b', 'c'는 true
+arr.constructor === Array
+arr instanceof Array
+```
+Object.prototype.toString.call 함수를 사용하는 것이 가장 정확한 방법 중 하나임
+
+## 참고 및 학습
+https://developer.mozilla.org/ko/docs/Web/JavaScript
