@@ -1,29 +1,35 @@
 # DART
+[DART Homepage](https://dart.dev/)
+[DART Package Repository](https://pub.dev/)
 
-## 기본형태
+## Basic Form
 ```dart
-
+void main() {
+  print('dart!');
+}
 ```
 
-## 환경변수 설정
+## Language Version
+Dart 3+
+
+## CLI Compile and Run
+```
+dart dartfile.dart
 ```
 
-```
-
-## CLI 컴파일 후 실행
-
-
-## 특징
- 
-
-## 주석
+## Comments (주석)
 ```dart
-//let d = 0;
+// var dart = 0;
 /*
 ...
 */
+/// ...
 ```
-주석에서 //은 한줄 주석이고 /* */은 여러줄 주석이다   
-vscode단축키: ctrl + /(윈도우), cmd + /(맥)   여러줄일 경우 블록지정하여 사용한다
+//: 한줄 주석   
+/* */: 여러줄 주석   
+///: 문서화 주석
 
 ## 표기법
+변수와 함수명: camelCase   
+클래스: PascalCase   
+파일명: snake_case

@@ -1,22 +1,22 @@
 # C++
-[C++ 위키백과](https://ko.wikipedia.org/wiki/C%2B%2B)
+[C++ 위키피디아](https://ko.wikipedia.org/wiki/C%2B%2B)
 
-## 기본 형태
+## Basic Form
 ```c++
 #include <iostream>
 
 int main(int argc, char* argv[]){
-    std::cout<<"c++"<<std::endl;
+    std::cout<<"c++!"<<std::endl;
 }
 ```
 
-## 언어 버전
-c++17, c++20(최신)
+## Language Version
+c++ 17+
 
-## 컴파일러
+## Compiler
 clang 12+
 
-## CLI 컴파일 후 실행
+## CLI Compile and Run
 ### Windows
 ```
 clang++ cppfile.cpp -o filename.exe
@@ -28,9 +28,9 @@ g++ cppfile.cpp -o filename
 ./filename
 ```
 
-## 주석
+## Comments (주석)
 ```c++
-//int cpp = 0;
+// int cpp = 0;
 /*
 ...
 */

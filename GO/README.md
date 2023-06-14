@@ -1,6 +1,7 @@
 # GO
+[GO Homepage](https://go.dev/)
 
-## 기본형태
+## Basic Form
 ```go
 package main
 
@@ -9,24 +10,20 @@ import (
 )
 
 func main(){
-    fmt.Println("go")
+    fmt.Println("go!")
 }
 ```
 
-## 환경변수 설정
-```
-PATH = Go/bin
-```
+## Language Version
+Go 1.18 +
 
-## CLI 컴파일 후 실행
-- go 1.18 +
+## CLI Compile and Run
 ```
-go run gofile.go - go 빌드 후 자동 실행 후 빌드 파일 자동 삭제
-go build gofile.go - go 빌드
+go run gofile.go : go 빌드 후 자동 실행 후 빌드 파일 자동 삭제
+go build gofile.go : go 빌드
+go build -ldflags "-s -w" gofile.go : golang release build
 ```
 build 옵션은 컴파일 후 정적 링크 실행 파일(외부 라이브러리 없이 하나의 파일)로 생성함
-### Release Build
-golang release build는 go build -ldflags "-s -w" 옵션으로 실행
 
 ## 특징
 Go 언어의 패러다임은 절차형, 동시성, 분산을 지원하고 가비지 컬렉션을 지원하며 강타입이다   
