@@ -1,29 +1,28 @@
 # C++
+[C++ 위키백과](https://ko.wikipedia.org/wiki/C%2B%2B)
 
-## 기본형태
+## 기본 형태
 ```c++
 #include <iostream>
 
-using namespace std;
-
 int main(int argc, char* argv[]){
-    cout<<"c++"<<endl;
+    std::cout<<"c++"<<std::endl;
 }
 ```
 
+## 언어 버전
+c++17, c++20(최신)
 
-## 환경변수 설정
-```
-PATH = C++/bin
-```
+## 컴파일러
+clang 12+
 
 ## CLI 컴파일 후 실행
-- clang 12 + - c++17, windows
+### Windows
 ```
 clang++ cppfile.cpp -o filename.exe
 ./filename.exe
 ```
-- g++ - c++17, linux
+### Linux
 ```
 g++ cppfile.cpp -o filename
 ./filename
@@ -36,8 +35,11 @@ g++ cppfile.cpp -o filename
 ...
 */
 ```
-주석에서 //은 한줄 주석이고 /* */은 여러줄 주석이다   
-vscode단축키: ctrl + /(윈도우), cmd + /(맥)   여러줄일 경우 블록지정하여 사용한다
+//: 한줄 주석   
+/* */: 여러줄 주석
 
 ## 표기법
-C++에서 변수명은 소문자 함수명은 camelCase, 상수명은 모두 대문자에 SNAKE_CASE, 클래스명은 PascalCase를 사용한다
+변수명: 소문자
+함수명: camelCase
+상수명: 모두 대문자에 SNAKE_CASE
+클래스명: PascalCase
