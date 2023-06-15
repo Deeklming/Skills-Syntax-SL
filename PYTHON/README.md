@@ -1,35 +1,44 @@
 # PYTHON
+## Links
+[PYTHON Homepage](https://www.python.org/)
+[PyPI (The Python Package Index)](https://pypi.org/)
 
 ## 기본형태
 ```python
-print("python")
+print("python!")
 ```
 
+## Language Version
+Python 3.11+
 
-## 환경변수 설정
-```
+## Compiler
+cpython(interpreter)
 
-```
-
-## PYTHON 인터프리터 실행
-- python - windows
+## CLI Compile and Run
+### Windows
 ```
 python pyfile.py
 ```
-- python3 - linux, macos
+### Linux, macOS
 ```
 python3 pyfile.py
 ```
 
-## 주석
+## Language Feature
+개발 속도가 빠른 인터프리터(스크립트) 언어이자 거의 모든 플랫폼에서 동작하는 언어임
+### GIL (Global Intepreter Lock)
+하나의 스레드에 모든 자원을 허락하고 나머지 스레드에 락을 걸어 다른 스레드가 실행되지 않도록 막아버리는 기능으로 멀티 코어 작업이 불가능함
+### comments (주석)
 ```python
-# int j = 0;
+# py = 0;
 """
 ...
 """
 ```
-주석에서 #은 한줄 주석이고 """ """은 문서화이다   
-//vscode단축키: ctrl + /(윈도우), cmd + /(맥)   여러줄일 경우 블록지정하여 사용한다
-
-## 표기법
-파이썬에서 변수명과 함수명은 camelCase, 상수명은 모두 대문자에 SNAKE_CASE, 클래스명은 PascalCase, 패키지명은 모두 소문자를 사용한다
+\#: 한줄 주석   
+""" """: 문서화 주석
+### 표기법
+변수와 함수명: camelCase   
+상수명: SCREAMING_SNAKE_CASE   
+클래스명: PascalCase   
+패키지명: all lower
