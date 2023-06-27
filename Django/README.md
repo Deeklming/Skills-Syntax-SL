@@ -24,10 +24,15 @@ Python Open Source Web Framework
 4. python -m pip install django : 장고 설치
 5. django-admin startproject projectName . : 프로젝트 생성, .은 현재 폴더
 6. 환경변수 설정하면 편함
-- Windows의 경우 빈 bat파일에 아래 명령어를 적고 환경변수 추가
+- Windows bat
 ```bat
 @echo off
 cd 프로젝트 폴더 경로
+가상환경의 activate 경로
+```
+- Windows powershell
+```powershell
+Set-Location 프로젝트 폴더 경로
 가상환경의 activate 경로
 ```
 7. 프로젝트 생성 후 기본 폴더 구조
