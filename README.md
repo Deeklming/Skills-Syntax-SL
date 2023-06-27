@@ -1,2 +1,7 @@
-# Skills-Syntax-SL-T
-Skills Syntax or Instruction or Theory and Standard Library and Tools Study Collection
+# Skills-Syntax-SL-T-FeL
+- Skills Syntax instruction or theory
+- Standard Library
+- Tools
+- Framework and external Library
+
+Study Collection
