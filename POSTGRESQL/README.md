@@ -13,6 +13,11 @@ PostgreSQL 14.8+
 1. 최대한 SQL 표준 지원
 2. 다양한 데이터 유형 지원
 3. 빅데이터 처리에 유용
+### comments (주석)
+```sql
+-- select * from table;
+```
+--: 한줄 주석
 
 ## PostgreSQL Commands
 ### access
