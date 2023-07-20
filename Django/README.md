@@ -70,6 +70,12 @@ migration 적용 내역 보기 : python manage.py showmigrations (app name)
 table 삭제 : python manage.py flush
 ```
 & : 백그라운드에서 실행
+### manage.py
+```
+pip freeze > requirements.txt  // requirements.txt 생성 명령어
+pip install -r requirements.txt // install 명령어
+```
+현재 pip에 설치된 환경 공유
 
 ## Basic Django Development Order
 `function design` -> `Models` -> `URLs` -> `Views`
