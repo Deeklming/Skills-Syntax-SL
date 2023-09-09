@@ -70,7 +70,7 @@ migration 적용 내역 보기 : python manage.py showmigrations (app name)
 table 삭제 : python manage.py flush
 ```
 & : 백그라운드에서 실행
-### manage.py
+### sharing the environment
 ```
 pip freeze > requirements.txt  // requirements.txt 생성 명령어
 pip install -r requirements.txt // install 명령어
