@@ -14,7 +14,7 @@ Visual Studio Code
 - Terminal : `Ctrl(Control) + Shift + `` (백틱, 틸트, 템플릿리터럴)
 - Command palette : `Ctrl + Shift + P, F1`
 - 동시 선택 : `Ctrl + D` (2번 입력, `Ctrl + Shift + D`와 같은 역할)
-- 동시 수정 : `Ctrl` + `Alt` + `방향키(상, 하)`, `Alt + Click`, `Alt + Shift + Drag`, `Alt + Shift + i`
+- 동시 수정 / 커서 확장 : `Ctrl` + `Alt` + `방향키(상, 하)`, `Alt + Click`, `Alt + Shift + Drag`, `Alt + Shift + i`
 - Quick Open : `Ctrl + P`
 - 문장의 양 끝 : `Home` / `End`
 - 코드의 양 끝 : `Ctrl + Home` / `Ctrl + End`

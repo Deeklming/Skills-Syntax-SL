@@ -1,6 +1,9 @@
 # HTML
 HTML(Hyper Text Markup Language)에서 Hyper Text(하이퍼텍스트)는 링크로 연결된 텍스트이고 Markup Language(마크업 언어)는 태그(</>)와 같은 기호를 이용해서 문서를 작성하도록 도와주는 언어
 
+## Links
+[마크업 오류 체크 사이트](https://validator.w3.org/)
+
 ## 특징
 1. 2019년 부터 HTML5대신 HTML Living Standard로 불리우며 WHATWG가 주관하게 됨
 
