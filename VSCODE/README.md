@@ -1,4 +1,4 @@
-# VSCODE
+# VSCode
 Visual Studio Code
 
 ## Links

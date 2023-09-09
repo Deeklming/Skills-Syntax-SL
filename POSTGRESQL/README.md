@@ -1,6 +1,6 @@
-# POSTGRESQL
+# PostgreSQL
 ## Links
-[POSTGRESQL Homepage](https://www.postgresql.org/)
+[PostgreSQL Homepage](https://www.postgresql.org/)
 [PostgreSQL 위키](https://ko.wikipedia.org/wiki/PostgreSQL)
 
 ## DBMS Version

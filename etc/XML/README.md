@@ -1,5 +1,5 @@
 # XML
-XML(EXtensible Markup Language)은 데이터를 저장하고 전달할 목적으로 만들어졌고 저장되는 데이터의 구조를 기술하기 위한 언어
+XML(EXtensible Markup Language)은 데이터를 저장하고 전달할 목적으로 만들어졌고 저장되는 데이터의 구조를 기술하기 위한 언어이자 Markup Language(마크업 언어)임
 
 ## 확장자명
 .xml
