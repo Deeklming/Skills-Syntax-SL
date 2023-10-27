@@ -18,7 +18,4 @@ type Query{
 
 ## 표기법
 
-- key값이나 문자열은 항상 ""로 표기
-- 객체, 배열 등의 표기를 사용할 수 있음
-- JSON형식에서는 null, number, string, array, object, boolean을 사용할 수 있음
-- 원하는 만큼 중첩시켜서 사용가능
+- 
