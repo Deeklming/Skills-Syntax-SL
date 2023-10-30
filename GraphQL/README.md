@@ -33,3 +33,8 @@ GraphQL은 데이터 질의어이다
 ## 표기법
 
 - type과 {}를 사용함
+
+## 정보
+
+- type Query는 rest api의 get에 해당하고 type Mutation은 rest api의 post, put, delete에 해당 함
+- 기본적으로 nullable이고 !를 붙이면 non-nullable(required)이 됨
