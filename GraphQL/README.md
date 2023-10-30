@@ -11,11 +11,25 @@ GraphQL은 데이터 질의어이다
 ## 형태
 
 ```graphql
-type Query{
-    a: Number!
-}
+    type User{
+        id: ID
+        username: String
+    }
+    type Message{
+        id: ID
+        text: String
+        author: User
+    }
+    type Query {
+        allTweets:[Message]
+        msg(id: ID!): Message
+    }
+    type Mutation{
+        postMessage(text: String!, userId: ID!): Message!
+        deleteMessage(id: ID!): Boolean!
+    }
 ```
 
 ## 표기법
 
-- 
+- type과 {}를 사용함
