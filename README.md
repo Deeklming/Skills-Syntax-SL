@@ -14,19 +14,8 @@
 - Rust
 - Python
 - Dart
-
-### Framework
-
-- FastAPI
-
-### DBMS
-
-- PostgreSQL
-- Redis
-
-### OS
-
-- Debian
+- TypeScript
+- JavaScript
 
 ### Tools
 
