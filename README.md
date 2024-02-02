@@ -1,24 +1,8 @@
 # Skills-Stack
 
-- Skills Syntax instruction or theory
+- Skills Syntax Instruction or Theory
 - Standard Library
+- Framework and External Library
 - Tools
-- Framework and external Library
 - Data Structure and Algorithm
-
-## Study Collection
-
-### Language
-
-- C
-- Rust
-- Python
-- Dart
-- TypeScript
-- JavaScript
-
-### Tools
-
-- Git
-- VSCode
-- Docker
+- Programming Functions and Designs
