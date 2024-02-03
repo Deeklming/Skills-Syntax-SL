@@ -1,5 +1,10 @@
-# VSCode
+# VSCode {: .text-center}
 Visual Studio Code
+
+## 목차
+[template 자동 적용](#template-자동-적용)
+
+---
 
 ## Links
 [Visual Studio Code Homepage](https://code.visualstudio.com/)
@@ -86,3 +91,16 @@ Visual Studio Code
 - eslint : airbnb에서 정의한 자바스크립트 규칙
 - print : 코드를 프린터로 출력
 - Gitmoji : git 이모지
+
+## template 자동 적용
+1. Extensionsd에 Better Jinja 설치
+2. ctrl + shift + p 를 누른 후 Open Workspace Settings (JSON)을 클릭 후 적용
+```json
+"settings": {
+    "files.associations": {
+        "*.html": "jinja-html"
+    }
+}
+```
+
+---

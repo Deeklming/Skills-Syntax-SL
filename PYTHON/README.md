@@ -1,4 +1,4 @@
-# PYTHON
+# PYTHON {: .text-center}
 ## Links
 [PYTHON Homepage](https://www.python.org/)
 [PyPI (The Python Package Index)](https://pypi.org/)
