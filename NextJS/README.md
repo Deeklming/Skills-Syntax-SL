@@ -9,6 +9,7 @@ node
 ```bash
 # 수동 기본 설치
 npm install react@latest next@latest react-dom@latest
+npm install --save-dev typescript
 mkdir app #폴더명 고정
 cd app
 touch page.tsx #파일명 고정
